@@ -1,7 +1,13 @@
-function area(){
-    var a = parseFloat(document.getElementById("lado1").value)
-    var b = parseFloat(document.getElementById("lado2").value)
-    var resp = document.getElementById("resposta")
-    resp.innerHTML = (a * b).toFixed(2)
+function tudo(){
+    var nome = document.getElementById("nome").value 
+    var desc = document.getElementById("desc").value 
+    var idade = document.getElementById("idade").value 
+    var gen = document.getElementById("gen").value 
+    var hobby = document.getElementById("hobby").value 
+ 
+    document.getElementById("pnome").textContent = nome
+    document.getElementById("pdesc").textContent = desc
+    document.getElementById("pidade").textContent = idade
+    document.getElementById("pgen").textContent = gen
+    document.getElementById("phobby").textContent = hobby
 }
-
